@@ -1,0 +1,102 @@
+
+body
+{
+	
+	background-color: lightblue;
+}
+
+
+.w3-mymenu
+{
+	background-color:Tomato;
+	
+}
+
+.w3-mytext
+{
+	margin-left: 285px;
+	
+}
+
+.w3-mytext2
+{
+	margin-left: 815px;
+	margin-top:-310px;
+	
+}
+
+.w3-mytext3
+{
+	margin-left: 1345px;
+	margin-top:-310px;
+	
+}
+
+.w3-mybottom
+{
+	text-align: center;
+}
+
+.w3-mybutton1
+{
+	margin-left:80px;
+	margin-top:32px;
+}
+
+.w3-mybutton2
+{
+	margin-left:80px;
+	margin-top:8px;
+		
+}
+
+.w3-mybtn0
+{
+	margin-left:40px;
+	margin-top:25px;
+}
+
+.w3-mybtn1
+{
+	margin-left:150px;
+	margin-top:-34px;
+}
+
+.w3-myfont {
+			
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight: bold;
+		
+}
+		 
+.g-signin2{
+		 
+	margin-left:355px;
+	margin-top:-51px;
+}
+		 
+		 
+.data{
+		 
+	display:none;
+	margin-bottom:470px;
+			
+}
+		 
+#result
+{
+	text-align:center;
+			
+		
+		
+}
+		
+#close
+{
+	display:none;
+	background-color:red;
+	text-align: center;
+	color: white;
+		
+}

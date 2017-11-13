@@ -1,0 +1,121 @@
+#viewer,#viewer2,#viewer3,#viewer4,#viewer5 {display:none;width:600px;height:600px;padding:30px;margin-left:auto;margin-right:auto;margin-top:20px;background:#fff;box-shadow: 2px 2px 5px 4px #888888;border-radius:10px;}
+#viewerCanvas,#viewerCanvas2,#viewerCanvas3,#viewerCanvas4,#viewerCanvas5 {width:100%;height:100%;}
+.show,.show2,.show3,.show4,.show5
+{
+	
+	width:180px;
+	height:40px;
+	background-color:DodgerBlue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	
+
+}
+
+.w3-myfont {
+			
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight: bold;
+		
+}
+		 
+
+.im2,.im3,.im4{
+
+	z-index:-1;
+}
+
+.detail1
+{
+	width:180px;
+	height:40px;
+	background-color:DodgerBlue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	z-index:-1;
+	margin-left:135px;
+	margin-top:410px;
+	
+}
+
+.detail2
+{
+	width:180px;
+	height:40px;
+	background-color:DodgerBlue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	z-index:-1;
+	margin-left:485px;
+	margin-top:-42px;
+	
+}
+
+
+.detail3
+{
+	width:180px;
+	height:40px;
+	background-color:DodgerBlue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	z-index:-1;
+	margin-left:835px;
+	margin-top:-42px;
+	
+}
+
+.detail4
+{
+	width:180px;
+	height:40px;
+	background-color:DodgerBlue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	z-index:-1;
+	margin-left:1185px;
+	margin-top:-42px;
+	
+}
+
+.detail5
+{
+	width:180px;
+	height:40px;
+	background-color:DodgerBlue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	z-index:-1;
+	margin-left:1540px;
+	margin-top:-42px;
+	
+}
+
+#close,#close2,#close3,#close4,#close5
+{
+	margin-top:-580px;
+	margin-left:540px;
+	background-color:red;
+	text-align: center;
+	color: white;
+}
+
