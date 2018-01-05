@@ -3,12 +3,15 @@ body
 {
 	
 	background-color: lightblue;
+	width: 100%;
+	height: 100%;
 }
 
 
 .w3-mymenu
 {
 	background-color:Tomato;
+	height:46px;
 	
 }
 
@@ -52,7 +55,7 @@ body
 
 .w3-mybtn0
 {
-	margin-left:40px;
+	margin-left:80px;
 	margin-top:25px;
 }
 
@@ -87,9 +90,7 @@ body
 #result
 {
 	text-align:center;
-			
-		
-		
+				
 }
 		
 #close
@@ -98,5 +99,12 @@ body
 	background-color:red;
 	text-align: center;
 	color: white;
+		
+}
+
+#pos
+{
+		margin-left:435px;
+		margin-top:150px;
 		
 }
