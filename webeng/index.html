@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 	<html>
 	
 		<head>
-		<title>Student Books API</title>
+		<title>page title</title>
 		<meta charset="utf-8">
 		<meta name="google-signin-client_id" content="1028443289659-j14k6d4i05squt78f225q6h6ohuo5i5p.apps.googleusercontent.com">
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -55,18 +55,17 @@
 		});
 		
 		</script>
-	
 		
 		
 		</head>
 		
 		<body>
 				
-				<div class="w3-card w3-green w3-bottombar w3-border-black" style="height:145px;">
+				<div class="w3-card w3-green w3-bottombar w3-border-grey" style="height:150px;">
 		
 						<div class="w3-container w3-left w3-padding-24">
 						
-							<div class="mywebeng" style="font-size:30px;"><strong>Student Books API</strong></div>
+							<div class="mywebeng" style="font-size:30px;"><strong>Student Book APIs</strong></div>
 							
 							
 						</div>
@@ -74,10 +73,16 @@
 						</br>
 								<div class="w3-right w3-container">
 								
-									</br></br></br></br>
+									</br></br>
 								
 								
+									<form id="myform">
 									
+										    <i class="fa fa-search w3-text-black"></i>
+											<input type="search w3-input" id="books" class=" w3-white w3-text-black">
+											<button class="pr w3-btn w3-teal w3-small w3-border w3-border-black" >Search Books</button>
+										
+									</form>
 									
 								<div class="g-signin2" data-onsuccess="onSignIn"></div>
 											<div class="data w3-card-2 w3-container w3-blue w3-display-bottomright">
@@ -89,13 +94,18 @@
 												<button onclick="signOut()" class="w3-margin btn btn-danger">SignOut</button>
 											</div>
 								
+								
+								
+									
+								
 								</div>
 								
 								 <div class="w3-mymenu w3-bar w3-myfont">
 									<div class="w3-margin-left">
-										<a href="http://porfyras.ddns.net:7380/webeng2017/" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">HOME</a>
-										<a href="http://porfyras.ddns.net:7380/webeng2017/guides.html" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">GUIDES</a>
-										<a href="http://porfyras.ddns.net:7380/webeng2017/second.html" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">SAMPLES</a>
+										<a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">HOME</a>
+										<a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">GUIDES</a>
+										<a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">REFERENCE</a>
+										<a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">SAMPLES</a>
 									</div>
 								 </div>
 		
@@ -110,24 +120,68 @@
 					 <button id="close" onclick="document.getElementById('result').style.display='none'">X</button>			
 				</div>
 				
+				</br></br>
 				
 				<div class="index">
 				<div class="w3-mytext w3-card-0" style="width:300px;height:300px">
 				
-				<img id="pos" src="https://imageshack.com/a/img922/8604/Xeaz8d.jpg" style="width:400px;height:100px;"</img>
+					<h5>Ενσωμάτωση με το χώρο αποθήκευσης
+					των Βιβλίων Google</h5>
 				
-				<form id="myform" class="w3-display-middle">
-									
-					<i class="fa fa-search w3-text-black"></i>
-					<input style="width:400px;height:35px;" type="search w3-input w3-border-black" id="books" class=" w3-white w3-text-black">
-					<button class="pr w3-btn w3-teal w3-small w3-border w3-border-black" >Search Books</button>
-										
-				</form>
+				<p>Τα Βιβλία Google είναι η προσπάθειά μας να καταστήσουμε το περιεχόμενο βιβλί-
+				ων πιο ανακαλυπτόμενο στον Ιστό. 
 				
-					
+				
+				Χρησιμοποιώντας το  API Βιβλίων Goo-
+				gle, η εφαρμογή σας μπορεί να πραγμα-
+				τοποιεί αναζητήσεις πλήρους κειμένου και 
+				να ανακτά πληροφορίες βιβλίων, δυ-
+				νατότητα προβολής 
+				και διαθεσιμότητα του ηλεκτρονικού βιβλίου. Μπορείτε επί-
+				σης να διαχειριστείτε τα προσωπικά ρά-
+				φια σας.</p>
+				
+				
+				<button class="w3-mybtn0 w3-btn w3-small w3-black">Overview</button>
+				
+				<button class="w3-mybtn1 w3-btn w3-small w3-black">Get Started </button>
+				
 				</div>
 				
+				<div class="w3-mytext2 w3-card-0" style="width:300px;height:300px">
 				
+					<h5>Δυνατότητα για περιήγηση στην συλλογή</h5>
+					
+				
+				<p>Το ενσωματωμένο API προβολής σας επιτρέπει να ενσωματώσετε τις προεπι-
+				σκοπήσεις του Google Books στον δικό σας ιστότοπο και να ελέγχετε προγραμ-
+				ματικά αυτές τις προεπισκοπήσεις.Τα API στην οικογένεια API των Βιβλίων Google σας επιτρέπουν να φέρετε λειτουργίες του Google Books στον ιστότοπο ή την εφαρμογή σας. Το νέο API Google Books σας επιτρέπει να εκτελέσετε με προγραμματισμό τις περισσότερες από τις λειτουργίες που μπορείτε να κάνετε. </p>
+				
+					
+					<a href="file:///C:/Users/user/Desktop/webeng/second.html"><button class="w3-mybutton1 w3-btn w3-small w3-black">Collection View</button></a>
+				</div>
+				
+				<div class="w3-mytext3 w3-card-0" style="width:300px;height:300px">
+				
+					<h5>Στατιστικά στοιχεία του Student Book</h5>
+					
+				
+				<p>Τα API στην οικογένεια API των Βιβλίων Google σας επιτρέπουν να φέρετε λει-
+				τουργίες του Google Books στον ιστό-
+				τοπο ή την εφαρμογή σας. Το API δεν προορίζεται να χρησιμοποιηθεί ως αντι-
+				κατάσταση των εμπορικών υπηρεσιών.
+				Προσπαθούμε συνεχώς να παρέχουμε πληροφορίες σε όσο το δυνατόν πε-
+				ρισσότερους ανθρώπους και τα API μας σχεδιάστηκαν με αυτό το στόχο. Ωστό-
+				σο, επιτρέπουμε πολλά από τα δεδομέ-
+				να που χρησιμοποιούμε να παρουσιάζο-
+				νται και με την μορφή διαγραμμάτων. </p>
+				
+				
+				
+					<button class="w3-mybutton2 w3-btn w3-small w3-black">Statistics View</button>
+				
+				</div>
+				</div>
 				<div class="w3-bottom">
 								
 					<footer class="w3-mybottom w3-teal w3-topbar w3-border-black w3-xlarge">Student API &#169;</footer> 
