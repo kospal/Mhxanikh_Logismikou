@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+	<html>
+	
+		<head>
+		<title>Student Books API</title>
+		<meta charset="utf-8">
+		<meta name="google-signin-client_id" content="1028443289659-j14k6d4i05squt78f225q6h6ohuo5i5p.apps.googleusercontent.com">
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <link rel="stylesheet" type="text/css" href="mystyle.css">
+		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		 
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<script src="myscript.js"></script>
+		<script src="script.js"></script>
+		
+		
+		<script>
+		
+			$(document).ready(function(){
+		 
+				$('.pr').click(function(){
+				$('#close').show();
+		
+			});
+		
+		});
+		
+		</script>
+		
+		
+		<script>
+			
+			$(document).ready(function(){
+				$(".pr").click(function(){
+				$(".index").hide();
+			});
+			
+		});
+		</script>
+		
+		
+		<script>
+		
+			$(document).ready(function(){
+			$("#close").click(function(){
+				$(".index").show();
+				location.reload(true);
+			});
+		});
+		
+		</script>
+	
+		
+		
+		</head>
+		
+		<body>
+				
+				<div class="w3-card w3-green w3-bottombar w3-border-black" style="height:145px;">
+		
+						<div class="w3-container w3-left w3-padding-24">
+						
+							<div class="mywebeng" style="font-size:30px;"><strong>Student Books API</strong></div>
+							
+							
+						</div>
+		
+						</br>
+								<div class="w3-right w3-container">
+								
+									</br></br></br></br>
+								
+								
+									
+									
+								<div class="g-signin2" data-onsuccess="onSignIn"></div>
+											<div class="data w3-card-2 w3-container w3-blue w3-display-bottomright">
+												<p>Profile Details</p>
+												<img id="pic" class="img-circle" width="60" height="60"/>
+												</br></br>
+												<p>Email Address</p>
+												<p id="email" class="alert alert-danger"></p>
+												<button onclick="signOut()" class="w3-margin btn btn-danger">SignOut</button>
+											</div>
+								
+								</div>
+								
+								 <div class="w3-mymenu w3-bar w3-myfont">
+									<div class="w3-margin-left">
+										<a href="http://porfyras.ddns.net:7380/webeng2017/" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">HOME</a>
+										<a href="http://porfyras.ddns.net:7380/webeng2017/guides.html" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">GUIDES</a>
+										<a href="http://porfyras.ddns.net:7380/webeng2017/second.html" class="w3-bar-item w3-button w3-hover-none w3-text-black w3-hover-text-white">SAMPLES</a>
+									</div>
+								 </div>
+		
+		
+				</div>
+				
+				
+				
+				</br></br>
+				
+				<div  id="result">
+					 <button id="close" onclick="document.getElementById('result').style.display='none'">X</button>			
+				</div>
+				
+				
+				<div class="index">
+				<div class="w3-mytext w3-card-0" style="width:300px;height:300px">
+				
+				<img id="pos" src="https://imageshack.com/a/img922/8604/Xeaz8d.jpg" style="width:400px;height:100px;"</img>
+				
+				<form id="myform" class="w3-display-middle">
+									
+					<i class="fa fa-search w3-text-black"></i>
+					<input style="width:400px;height:35px;" type="search w3-input w3-border-black" id="books" class=" w3-white w3-text-black">
+					<button class="pr w3-btn w3-teal w3-small w3-border w3-border-black" >Search Books</button>
+										
+				</form>
+				
+					
+				</div>
+				
+				
+				<div class="w3-bottom">
+								
+					<footer class="w3-mybottom w3-teal w3-topbar w3-border-black w3-xlarge">Student API &#169;</footer> 
+									
+				</div>
+				
+				
+		</body>
+		
+	</html>
